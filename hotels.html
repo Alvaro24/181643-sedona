@@ -18,7 +18,7 @@
           <li>
             <a href="#">Информация</a>
           </li>
-          <li>
+          <li class="menu-indent">
             <a href="#">Фото и видео</a>
           </li>
           <li>
@@ -31,7 +31,6 @@
       </nav>
     </header>
     <div class="filter">
-       <img src="img/bg-filter.jpg" class="bg-filter" width="1200" height="562">
       <form action="#" method="post">
         <div class="infrastructure">
           <div class="filter-title">
@@ -71,7 +70,7 @@
           <div class="filter-title">
             Стоимость в сутки (Р):
           </div>
-          <div class="price-controls">
+          <div class="price-controls clearfix">
             <label>
               от
               <input class="min-price" type="text" value="0">
@@ -82,14 +81,18 @@
             </lanbel>
           </div>
           <div class="range-controls">
-          <!-- Тут будет ползунок -->
+          <div class="scale">
+            <div style="width:80%;" class="bar"></div>
+              <div class="toggle min-toggle"></div>
+              <div class="toggle max-toggle"></div>
           </div>
           <button type="submit" class="btn-filter">Показать</button>
         </div>
       </form>
     </div>
-    <div class="hotel-list-title">
-      <div class="found">Найдено: 3</div>
+    </div>
+    <div class="hotel-list-title clearfix">
+      <div class="found">Найдено:3</div>
       <div class="sorting">Сортировка:</div>
       <ul>
         <li class="active">По цене</li>
@@ -104,7 +107,7 @@
       <i class="icon-up-dir">↑</i>
       <i class="icon-down-dir">↓</i>
     </div>
-    <div class="hotel-item">
+    <div class="hotel-item clearfix">
   <div class="hotel-left-block">
     <img src="img/hotel-pic-1.jpg" width="135" height="90" alt="Amara Resort &amp; Spa">
   </div>
@@ -126,7 +129,7 @@
     <div class="rating">Рейтинг: 8,5</div>
   </div>
 </div>
-<div class="hotel-item">
+<div class="hotel-item clearfix">
   <div class="hotel-left-block">
     <img src="img/hotel-pic-2.jpg" width="135" height="90" alt="Desert Quail Inn">
   </div>
@@ -148,7 +151,7 @@
     <div class="rating">Рейтинг: 8,9</div>
   </div>
 </div>
-<div class="hotel-item">
+<div class="hotel-item clearfix">
   <div class="hotel-left-block">
     <img src="img/hotel-pic-3.jpg" width="135" height="90" alt="Villas at Poco Diablo">
   </div>
@@ -182,8 +185,6 @@
     <div class="footer-by">
       Website by
       <a class="footer-by-icon" href="#"></a>
-      for
-      <a class="footer-for-icon" href="#"></a>
   </div>
 </footer>
 </div>
