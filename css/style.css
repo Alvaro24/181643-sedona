@@ -206,7 +206,8 @@ figure {
   text-align: center;
 }
 
-.grid-img-right, .grid-img-left {
+.grid-img-right,
+.grid-img-left {
   background-color: #7aa8ca;
   color: white;
 }
@@ -223,6 +224,8 @@ figure {
 
 .causes-item-text {
   padding: 45px;
+  padding-left: 30px;
+  padding-right: 30px;
   padding-bottom: 0;
 }
 
@@ -261,6 +264,33 @@ figure {
   margin-bottom: 23px;
 }
 
+.causes-item-intro-title:before {
+  background: url("../img/sprites.png") no-repeat;
+  content: "";
+  display: block;
+  height: 76px;
+  margin: 0 auto 28px;
+  width: 76px;
+}
+
+.left-sprite:before {
+  background-position: -266px -5px;
+  width: 75px;
+  height: 72px;
+}
+
+.middle-sprite:before {
+  background-position: -2px -1px;
+  width: 74px;
+  height: 70px;
+}
+
+.right-sprite:before {
+  background-position: -144px 0;
+  width: 64px;
+  height: 76px;
+}
+
 .causes-item-gray {
   text-align: center;
   background-color: #eee;
@@ -282,6 +312,8 @@ figure {
 .causes-item-text > p {
   margin: 0;
   padding: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
 .interesting {
@@ -563,7 +595,7 @@ figure {
 
 .filter input[type="checkbox"]:checked + label::before {
   content: "\2611";
-  color: #b5b5b5;
+  color: #fefefe;
 }
 
 .filter input[type="checkbox"] + label:hover::before {
@@ -572,8 +604,8 @@ figure {
 
 .cost {
   float: right;
-  width: 320px;
-  padding: 28px 6.7% 0 0;
+  width: 328px;
+  padding: 28px 73px;
 }
 
 .range-controls {
@@ -637,6 +669,7 @@ figure {
   outline: none;
   border: none;
   box-sizing: border-box;
+
 }
 
 .btn-filter {
@@ -651,6 +684,7 @@ figure {
   font-size: 14px;
   line-height: 21px;
   background: none;
+  color: white;
 }
 
 .btn-filter:hover {
@@ -702,6 +736,7 @@ figure {
   line-height: 18px;
   text-decoration: none;
   color: rgba(0, 0, 0, 0.3);
+  border-bottom: dotted 1px #81b3d2;
 }
 
 .hotel-list-title a:hover {
@@ -841,11 +876,27 @@ figure {
   content: "\2605 \2605 \2605 \2605 \2605";
 }
 
+.min-price {
+  color: white;
+}
+
+.max-price {
+  color: white;
+}
+
 /* Footer */
 
 .main-footer {
   height: 595px;
   position: relative;
+}
+
+.index-map {
+  width: 100%;
+  height: 100%;
+  min-height: 265px;
+  position: absolute;
+  z-index: 1;
 }
 
 .footer-blocks {
@@ -876,6 +927,7 @@ figure {
   float: left;
 }
 
+
 .footer-social-icon {
   width: 46px;
   height: 48px;
@@ -887,4 +939,28 @@ figure {
   font-size: 19px;
   background-color: #81b3d2;
   color: white;
+}
+
+.footer-by {
+  float: left;
+  text-align: center;
+	width: 33.3334%;
+	margin-top: 9px;
+}
+
+.footer-by-icon {
+  background: url("../img/sprites.png") 0 -128px;
+  display: inline-block;
+  vertical-align: middle;
+  width: 113px;
+	height: 39px;
+  margin: 0 8px;
+}
+
+.footer-by-icon:hover {
+  background-position: -158px -123px;
+}
+
+.footer-by-icon:active {
+	opacity: 0.3;
 }

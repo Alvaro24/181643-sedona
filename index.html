@@ -6,8 +6,7 @@
   <title>Sedona - Главная</title>
   <link href="css/normalize.css" rel="stylesheet" type="text/css">
   <link href="css/style.css" rel="stylesheet">
-  <link href='https://fonts.googleapis.com/css?family=PT+Sans+Narrow:400,700&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
-</head>
+  <link href='https://fonts.googleapis.com/css?family=PT+Sans:400,700&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
 
 <body>
   <div class="container">
@@ -37,7 +36,7 @@
     <div class="index-welcome">
       <img src="img/index-title.png" class="index-intro-text" width="458" height="352" alt="alt">
     </div>
-    <h1 class="index-title">Седона - небольшой городок в Аризоне, заслуживающий большего!</h1>
+    <h1 class="index-title">Седона — небольшой городок в Аризоне, заслуживающий большего!</h1>
     <p>Рассмотрим 5 причин, по которым Седона круче, чем Гранд Каньон!</p>
     <div class="causes-item grid-img-right clearfix">
       <div class="column-33">
@@ -86,7 +85,8 @@
       </div>
       <div class="column-33">
         <div class="causes-item-text">
-          <h2>Там есть мост дьявола</h2>
+          <h2>Там есть <br>
+             мост дьявола</h2>
           <span>—№2—</span>
           <p>Да, по нему можно пройти! Если конечно вы осмелитесь</p>
         </div>
@@ -136,10 +136,10 @@
       <a href="#" class="btn-link btn-interesting">Поиск гостиницы в Седоне</a>
     </div>
     <footer class="main-footer">
-
-      <!-- Тут будет карта -->
-
-      <div class="index-form index-form-show">
+    <div class="index-map">
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d44046.54795493258!2d-111.78006727015365!3d34.861773358044005!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x872da132f942b00d%3A0x5548c523fa6c8efd!2z0KHQtdC00L7QvdCwLCDQkNGA0LjQt9C-0L3QsCA4NjMzNiwg0KHQqNCQ!5e0!3m2!1sru!2sru!4v1462973811835" width="1200" height="593" frameborder="0" style="border:0" allowfullscreen></iframe>
+    </div>
+      <div class="index-form index-form">
         <form action="#" method="post">
           <div class="clearfix">
             <div class="form-colum-left">
@@ -147,7 +147,7 @@
             </div>
             <div class="form-colum-right">
               <i class="icon-calendar"></i>
-              <input id="date-beg" type="text" name="date-beg" value="" placeholder="24 апреля 2014">
+              <input id="date-beg" type="text" name="date-beg" value="" placeholder="24 апреля 2016">
             </div>
           </div>
           <div class="clearfix">
@@ -156,7 +156,7 @@
             </div>
             <div class="form-colum-right">
               <i class="icon-calendar"></i>
-              <input id="date-end" type="text" name="date-end" value="" placeholder="4 июля 2014">
+              <input id="date-end" type="text" name="date-end" value="" placeholder="4 июля 2016">
             </div>
           </div>
           <div class="half-lable-width clearfix">
@@ -178,7 +178,6 @@
           <button type="submit" class="btn btn-show">Найти</button>
         </form>
       </div>
-
       <div class="footer-blocks">
         <div class="footer-hashtag">#visitsedona</div>
         <div class="footer-social">
@@ -186,13 +185,14 @@
           <a class="footer-social-icon icon-facebook" href="#" title="facebook"></a>
           <a class="footer-social-icon icon-youtube" href="#" title="youTube"></a>
         </div>
-      </div>
       <div class="footer-by">
         Website by
         <a class="footer-by-icon" href="#"></a>
       </div>
+      </div>
     </footer>
   </div>
+  <script src="js/main.js"></script>
 </body>
 
 </html>
