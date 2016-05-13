@@ -1,0 +1,1 @@
+var link=document.querySelector(".btn-interesting"),indexForm=document.querySelector(".index-form"),indexMap=document.querySelector(".index-map");link.addEventListener("click",function(a){a.preventDefault(),indexForm.classList.toggle("index-form-show")}),indexMap.addEventListener("click",function(a){a.preventDefault(),indexForm.classList.remove("index-form-show")});
