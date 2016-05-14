@@ -170,7 +170,7 @@ figure {
 }
 
 .index-welcome {
-  background: url("../img/bg-index.jpg") no-repeat scroll 0 28% / cover #8bbdd6;
+  background: url("../img/bg-index.jpg") no-repeat scroll 0 21% / cover #8bbdd6;
   min-height: 510px;
   position: relative;
 }
@@ -180,7 +180,7 @@ figure {
   content: "";
   display: table;
   width: 100%;
-  height: 57px;
+  height: 61px;
   position: absolute;
   bottom: -2px;
 }
@@ -219,21 +219,19 @@ figure {
 }
 
 .white-theme .causes-item-intro {
-  padding: 41px 15% 67px 15%;
+  padding: 41px 56px 68px 56px;
 }
 
 .causes-item-text {
   padding: 45px;
-  padding-left: 30px;
-  padding-right: 30px;
   padding-bottom: 0;
 }
 
 .causes-item-text > h2 {
-  line-height: 26px;
+  line-height: 21px;
   font-size: 21px;
   margin: 0;
-  padding: 7px 10% 9px;
+  padding: 13px 18px 22px 22px;
 }
 
 .causes-item-pic {
@@ -274,21 +272,15 @@ figure {
 }
 
 .left-sprite:before {
-  background-position: -266px -5px;
-  width: 75px;
-  height: 72px;
+  background-position: -266px -2px;
 }
 
 .middle-sprite:before {
-  background-position: -2px -1px;
-  width: 74px;
-  height: 70px;
+  background-position: 0px 3px;
 }
 
 .right-sprite:before {
-  background-position: -144px 0;
-  width: 64px;
-  height: 76px;
+  background-position: -139px 0;
 }
 
 .causes-item-gray {
@@ -297,16 +289,16 @@ figure {
   padding: 32px;
 }
 
-.causes-item-gray h2 {
-  line-height: 26px;
+.causes-item-gray > h2 {
+  line-height: 21px;
   font-size: 21px;
   margin: 0;
-  padding: 15px 15% 10px;
+  padding: 18px 5px 26px 8px;
 }
 
 .causes-item-gray p {
   margin: 0;
-  padding: 20px;
+  padding: 20px 35px 20px 33px;
 }
 
 .causes-item-text > p {
@@ -374,15 +366,15 @@ figure {
 }
 
 .btn-show {
-	margin-top: 25px;
+	margin-top: 28px;
   width: 100%;
-  padding: 11px 0;
+  padding: 14px 12px 17px 11px;
 	font-size: 21px;
 	line-height: 26px;
 }
 
 .btn:hover,
-.footer-social-icon:hover  {
+.footer-social-icon:hover {
 	background-color: #669ec0;
 }
 
@@ -439,15 +431,15 @@ figure {
   padding: 55px;
 }
 
-.index-form label{
-	padding: 10px 0;
+.index-form label {
+	padding: 10px 3px;
 	display: block;
 	cursor: pointer;
 }
 
 .form-colum-left {
 	float: left;
-	width: 110px;
+	width: 115px;
 }
 
 .form-colum-right {
@@ -458,12 +450,12 @@ figure {
 
 .form-colum-left label,
 .form-colum-right input {
-	margin-bottom: 30px;
+	margin-bottom: 25px;
 }
 
 .form-colum-right label {
 	float: left;
-	margin-left: 50px;
+	margin-left: 51px;
 }
 
 .index-form input[name^=date],
@@ -482,7 +474,7 @@ figure {
 
 .index-form input[name^=num]{
 	text-align: center;
-	width: 90px;
+	width: 88px;
 }
 
 .index-form input[name^=date] {
@@ -623,6 +615,7 @@ figure {
 .range-controls .bar {
   height: 2px;
   background: white;
+  width:80%;
 }
 
 .range-controls .toggle {
@@ -945,7 +938,7 @@ figure {
   float: left;
   text-align: center;
 	width: 33.3334%;
-	margin-top: 9px;
+	margin-top: 5px;
 }
 
 .footer-by-icon {
@@ -954,7 +947,7 @@ figure {
   vertical-align: middle;
   width: 113px;
 	height: 39px;
-  margin: 0 8px;
+  margin: 0 3px;
 }
 
 .footer-by-icon:hover {
