@@ -554,7 +554,7 @@ figure {
   font-weight: bold;
   font-size: 16px;
   line-height: 21px;
-  padding-bottom: 10px;
+  padding-bottom: 9px;
 }
 .infrastructure, .property {
   float: left;
@@ -576,7 +576,7 @@ figure {
 .filter input[type="checkbox"] + label::before {
   font-family: "symbols-sedona";
   content: "\2610";
-  color: #6a6a6a;
+  color: #fafafa;
   position: absolute;
   top: 2px;
   left: -1px;
@@ -597,25 +597,27 @@ figure {
 .cost {
   float: right;
   width: 328px;
-  padding: 28px 73px;
+  padding: 26px 70px;
 }
 
 .range-controls {
   position: relative;
   height: 40px;
   overflow: hidden;
+  left: 9px;
 }
 
 .range-controls .scale {
   margin-top: 19px;
   height: 2px;
   background: rgba(255, 255, 255, 0.3);
+  width: 97%;
 }
 
 .range-controls .bar {
   height: 2px;
   background: white;
-  width:80%;
+  width:85%;
 }
 
 .range-controls .toggle {
@@ -635,12 +637,13 @@ figure {
 }
 
 .range-controls .max-toggle {
-  left: 79%;
+  left: 77%;
 }
 
 .price-controls {
   border: 2px solid white;
   border-radius: 2px;
+  margin-left: 9px;
 }
 
 .price-controls label {
@@ -653,6 +656,7 @@ figure {
 
 .price-controls label:first-child {
   border-right: 2px solid white;
+  padding-left: 16px;
 }
 
 .price-controls input {
@@ -666,12 +670,12 @@ figure {
 }
 
 .btn-filter {
-  padding: 5px 33px;
+  padding: 5px 35px 5px 35px;
   border: 2px solid white;
   border-radius: 2px;
   display: block;
   text-align: center;
-  margin: 14px auto 0;
+  margin: 14px 92px;
   outline: 0;
   text-transform: uppercase;
   font-size: 14px;
@@ -743,10 +747,10 @@ figure {
 .hotel-list-title i {
   content: "\25bc";
   position: absolute;
-  right: 80px;
+  right: 72px;
   color: #81b3d2;
   top: 50%;
-  margin-top: -10px;
+  margin-top: -11px;
   cursor: pointer;
   font-size: 23px;
 }
@@ -757,11 +761,11 @@ figure {
 }
 
 .hotel-list-title .icon-up-dir {
-  right: 100px;
+  right: 95px;
   color: #cccccc;
 }
 
-.hotel-list-title i:hover {
+.hotel-list-title .icon-up-dir:hover {
   color: black;
 }
 
@@ -836,7 +840,7 @@ figure {
   line-height: 21px;
   padding: 3px 15px;
   position: absolute;
-  right: 76px;
+  right: 69px;
 }
 
 [class^="hotel-stars-"]:before, [class*=" hotel-stars-"]:before {
@@ -844,7 +848,7 @@ figure {
   font-size: 21px;
   letter-spacing: 6px;
   position: absolute;
-  right: 74px;
+  right: 65px;
   text-align: right;
   top: 26px;
 }
@@ -885,6 +889,7 @@ figure {
 }
 
 .index-map {
+  background: url("../img/static-map.jpg") repeat scroll 0 0 #f2f1ef;
   width: 100%;
   height: 100%;
   min-height: 265px;
@@ -955,5 +960,5 @@ figure {
 }
 
 .footer-by-icon:active {
-	opacity: 0.3;
+color: rgba(189, 187, 188, 1);
 }
